@@ -1,0 +1,256 @@
+* {
+    background-color: #93efef;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: absolute;
+    /* background: wheat; */
+    width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+    transition: transform 0.2s ease-in;
+
+}
+
+.sidebar nav {
+    padding: 37px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 19px;
+    padding: 20px 0px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: rgb(10, 68, 226);
+    cursor: pointer;
+}
+
+.sidebar nav li a:hover {
+    color: black;
+}
+
+.main {
+    /* background: yellow; */
+    width: 90vw;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /* background: blue; */
+    height: 55vh;
+    width: 80vw;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello {
+    font-size: 45px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 22px;
+}
+
+.moreabout {
+    font-size: 18px;
+    margin-top: 15px;
+   font-family:  'Courier New', Courier, monospace;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 17px;
+    background: #09ffff;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0px 5px;
+    cursor: pointer;
+    color: blue;
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: black;
+}
+
+.devPic img {
+    height: 55vh;
+}
+
+/* this css for contact  */
+
+.contactform {
+    margin: 58px 70px;
+}
+.formh1{
+    margin: 11px 0px;
+}
+
+#name,#email,#phone,#description {
+    padding: 4px 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-bottom: 18px;
+}
+
+.submitbtn {
+    font-size: 16px;
+    margin: -6px 51px;
+    border-radius: 15px;
+    padding: 9px;
+}
+.submitbtn:hover{
+    background-color: black;
+    color: white;
+}
+
+/* CSS for blog */
+
+.blogItem{
+    margin: 20px;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+}
+.blogItem h2{
+    margin: 10px 0px;
+
+}
+.blogcontainer h1{
+    margin: 20px;
+
+}
+.blogcontainer{
+    margin: 37px 75px;
+}
+.btnblog{
+    margin: 8px;
+padding: 5px;
+font-size: 12px
+}
+.blogItem p{
+padding: 0px;
+font-size: 18px;
+line-height: 1.30;
+}
+
+/* CSS for intro */
+.intro h1{
+       font-family:  monospace;
+       margin: 12px;
+}
+
+.intro p{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 12px;
+    font-size: 20px;
+}
+.intro{
+    margin: 19px 82px;
+}
+.project{        margin: 15px 80px;
+    }
+
+.skill{
+    width: 300px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+    margin: 5px;
+
+
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin: 6px;
+    font-weight: 500;
+}
+.skillcontainer{
+    padding: 8px;
+}
+.hundered{
+    width: 300px;
+    background-color: blueviolet;
+}
+.t7{
+        width: 200px;
+        background-color: green;
+}
+.fifty{
+    width: 150px;
+    background-color: yellow;
+}
+.t5{
+    width: 75px;
+    background-color:red;
+}
+.project ol li{
+    margin: 21px 42px;
+font-size: 23px;
+}
+.sidebargo{
+    position: absolute;
+    transform: translate(-200px, 0px);    
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    left: 7px;
+}
+.ham {
+    width: 25px;
+}
+.cross{
+    width: 26px;
+    margin-left: 166px;
+    transition: transform 0.4s ease-out;
+}
+
+
+
+
+/* Media quiry for responsive web */
+
+
+@media (max-width:1000px){
+    /*  
+    *{
+     background-color: yellow;
+    } 
+     .sidebar{
+        position: absolute;
+        transform: translate(-250px, 0px);   
+     }
+     */
+    .devPic{
+        display: none;
+    }   
+    }
+
+
